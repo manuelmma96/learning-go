@@ -1,0 +1,23 @@
+# Go binaries
+# Ignore the specific 'hello_world' executable
+hello_world
+
+# If you're compiling for Windows'
+hello_world.exe
+
+# General Go build artifacts
+*.test
+*.out
+
+# Standard build directories (if you use them)
+bin/
+dist/
+
+# Go module vendor directory (optional)
+vendor/
+
+# OS and IDE files
+.DS_Store
+.idea/
+.vscode/
+*.iml
