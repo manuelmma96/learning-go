@@ -9,4 +9,6 @@ func main() {
 	fmt.Println("Hello, Pluto")
 
 	fmt.Println("Hello, Saturn")
+
+	fmt.Println(`And well... The rest of the "Solar System"`)
 }

@@ -1,23 +1,44 @@
-# Go binaries
-# Ignore the specific 'hello_world' executable
-hello_world
-
-# If you're compiling for Windows'
-hello_world.exe
-
-# General Go build artifacts
+# Go binaries and build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
 *.test
 *.out
 
-# Standard build directories (if you use them)
+# Go workspace specific
+exercises/*/ex*/main
+exercises/*/ex*/main.exe
+exercises/*/ex*/main.test
+
+# Standard build directories
 bin/
 dist/
+build/
 
 # Go module vendor directory (optional)
 vendor/
 
+# Go workspace files (if you want to ignore them)
+# go.work.sum
+
 # OS and IDE files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
 .idea/
 .vscode/
-*.iml
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
