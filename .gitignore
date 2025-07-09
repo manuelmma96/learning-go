@@ -9,6 +9,9 @@ hello_world.exe
 *.test
 *.out
 
+# Ignore chapter binaries
+ch*/hello*
+
 # Standard build directories (if you use them)
 bin/
 dist/
