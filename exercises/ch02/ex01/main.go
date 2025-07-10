@@ -1,3 +1,9 @@
+/* Exercise-01. 
+Write a program that declares an integer variable called i with the value 20.
+Assign 20 i to a floating-point variable named f.
+Print out i and f 
+*/
+
 package main
 
 import "fmt"

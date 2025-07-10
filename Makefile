@@ -1,6 +1,6 @@
 .DEFAULT_GOAL := help
 
-.PHONY: help fmt vet clean run-ch01 run-ch02 run-ex01 run-ex03 run-all
+.PHONY: help fmt vet clean run-ch01 run-ch02 run-ex01 run-ex02 run-ex03 run-all
 
 help:
 	@echo "Available targets:"
@@ -8,7 +8,7 @@ help:
 	@echo "  run-ch02     - Run all chapter 2 exercises"
 	@echo "  run-all      - Run all exercises from all chapters"
 	@echo "  run-ex01     - Run exercise 1 from chapter 1"
-	@echo "  run-ex03     - Run exercise 1 from chapter 2"
+	@echo "  run-ex02     - Run exercise 1 from chapter 2"
 	@echo "  fmt          - Format all Go code"
 	@echo "  vet          - Vet all Go code"
 	@echo "  clean        - Clean build artifacts"
@@ -28,6 +28,10 @@ run-ch02:
 	@echo "Running Chapter 2 exercises:"
 	@echo "--- Exercise 1 ---"
 	@go run ./exercises/ch02/ex01
+	@echo "--- Exercise 2 ---"
+	@go run ./exercises/ch02/ex02
+	@echo "--- Exercise 3 ---"
+	@go run ./exercises/ch03/ex03
 
 run-all: run-ch01 run-ch02
 	@echo "All exercises completed!"
@@ -36,7 +40,7 @@ run-ex01:
 	@echo "Running Exercise 1 from Chapter 1:"
 	@go run ./exercises/ch01/ex01
 
-run-ex03:
+run-ex02:
 	@echo "Running Exercise 1 from Chapter 2:"
 	@go run ./exercises/ch02/ex01
 
