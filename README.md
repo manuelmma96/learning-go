@@ -103,6 +103,7 @@ To add a new exercise:
 
 ### Chapter 2
 - **ex01**: Type conversion between byte and float64
+- **ex02**: Integer Overflow
 
 ## Benefits of Go Workspace Structure
 

@@ -1,6 +1,7 @@
-go 1.24
+go 1.24.4
 
 use (
 	./exercises/ch01
 	./exercises/ch02
+	./exercises/ch03
 )

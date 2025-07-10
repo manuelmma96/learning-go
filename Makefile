@@ -1,6 +1,6 @@
 .DEFAULT_GOAL := help
 
-.PHONY: help fmt vet clean run-ch01 run-ch02 run-ex01 run-ex02 run-all
+.PHONY: help fmt vet clean run-ch01 run-ch02 run-ex01 run-ex02 run-ex03 run-all
 
 help:
 	@echo "Available targets:"
@@ -30,6 +30,8 @@ run-ch02:
 	@go run ./exercises/ch02/ex01
 	@echo "--- Exercise 2 ---"
 	@go run ./exercises/ch02/ex02
+	@echo "--- Exercise 3 ---"
+	@go run ./exercises/ch03/ex03
 
 run-all: run-ch01 run-ch02
 	@echo "All exercises completed!"
