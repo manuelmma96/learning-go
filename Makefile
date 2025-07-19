@@ -44,6 +44,15 @@ run-ex02:
 	@echo "Running Exercise 1 from Chapter 2:"
 	@go run ./exercises/ch02/ex01
 
+run-ch03:
+	@echo "Running Chapter 3 exercises:"
+	@echo "--- Exercise 1 ---"
+	@go run ./exercises/ch03/ex01
+
+run-ex03-01:
+	@echo "Running Exercise 1 from Chapter 3:"
+	@go run ./exercises/ch03/ex01
+
 clean:
 	go clean -i ./...
 	rm -f exercises/*/ex*/main exercises/*/ex*/main.exe

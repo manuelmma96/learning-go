@@ -105,14 +105,8 @@ To add a new exercise:
 - **ex01**: Type conversion between byte and float64
 - **ex02**: Integer Overflow
 
-## Benefits of Go Workspace Structure
-
-1. **Each exercise is a proper module** - can have different dependencies
-2. **Natural Go commands** - `go run ./exercises/ch02/ex01` works perfectly
-3. **Scalable** - easy to add new chapters and exercises
-4. **Testable** - each exercise can have its own tests
-5. **Modern Go** - follows current Go conventions
-6. **IDE friendly** - works great with VS Code, GoLand, etc.
+### Chapter 3
+- **ex01**: Subslices
 
 ## Prerequisites
 
